@@ -1,6 +1,7 @@
 class Person
   attr_accessor :name, :age
   attr_reader :id
+  
   def initialize(age, name = 'Unknow', parent_permission: true)
     @id_counter = 0
     @id = @id_counter += 1
